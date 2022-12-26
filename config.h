@@ -9,11 +9,12 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Fira Code:size=10", "Font Awesome 6 Brands:size=10" };
 static const char dmenufont[]       = "Fira Code:size=10";
 static const char col_dark[]        = "#1f1e1c";
+static const char col_medium[]      = "#8a8774";
 static const char col_light[]       = "#bab7a2";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_light, col_dark, col_dark  },
-	[SchemeSel]  = { col_dark, col_light, col_light },
+	[SchemeNorm] = { col_light, col_dark, col_dark   },
+	[SchemeSel]  = { col_dark, col_light, col_medium },
 };
 
 /* tagging */
