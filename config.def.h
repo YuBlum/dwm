@@ -17,7 +17,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "", "", ""};
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -57,7 +57,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_dark, "-nf", col_light, "-sb", col_light, "-sf", col_dark, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *brwscmd[]  = { "firefox", NULL }; // browser command
+static const char *brwscmd[]  = { "qutebrowse", NULL }; // browser command
 static const char *disccmd[]  = { "discord", NULL }; // discord command
 static const char *spotcmd[]  = { "spotify", NULL }; // spotify command
 
